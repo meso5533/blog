@@ -110,20 +110,20 @@ customLinks:
 #comment config
 disqus:
   config: false
-  id: minixalpha
+  id: kitoll
 
 
 #################################### global configure #######################################
 
-username: minixalpha
+username: kitoll
 baseurl: /StrayBirds
 markdown: redcarpet
 safe: false
 highlighter: pygments
-title: 飞鸟集
-description: 人生到处知何似，应似飞鸿踏雪泥
-theme: kunka
-disqusname: minixalpha
+title: 小明湖畔の博客
+description:  I am I
+theme: slate
+disqusname: kitoll
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
 # those themes are all come from GitHub Pages Themes
