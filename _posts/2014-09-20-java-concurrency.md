@@ -19,16 +19,20 @@ Danmaku是一款弹幕软件，可用于举办活动时，在Windows系统的电
 ---
 ###Part-One:danmaku-java-server(zbus服务端)
 * 在pom.xml所在文件夹下使用maven进行打包，打包后的文件在target文件夹下 ： 
+        
         mvn clean package
 * 修改服务器参数的配置文件: target/server.properties
+        
         server.port=15555       #zbus端口
         server.token=danmaku    #在zbus进行管理员操作的口令（例如：创建队列）
 * 运行target下的launch.bat或launch.sh即可运行服务端
 
 ###Part-Two:danmaku-java-client(windows客户端)
 * 在pom.xml所在文件夹下使用maven进行打包，打包后的文件在target文件夹下 ： 
+        
         mvn clean package
 * 修改服务器参数的配置文件（也可在运行程序时填写）: target/danmaku.properties
+        
         server.host=127.0.0.1   #zbus服务器IP
         server.port=15555       #zbus服务器端口
         server.mq=danmaku       #队列名
