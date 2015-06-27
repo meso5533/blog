@@ -110,12 +110,12 @@ customLinks:
 #comment config
 disqus:
   config: false
-  id: kitoll
+  id: meso5533
 
 
 #################################### global configure #######################################
 
-username: kitoll
+username: meso5533
 baseurl: /StrayBirds
 markdown: redcarpet
 safe: false
@@ -123,7 +123,7 @@ highlighter: pygments
 title: 小明湖畔の博客
 description:  I am I
 theme: slate
-disqusname: kitoll
+disqusname: meso5533
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
 # those themes are all come from GitHub Pages Themes
