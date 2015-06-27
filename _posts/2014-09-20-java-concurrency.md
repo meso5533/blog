@@ -18,7 +18,7 @@ Danmaku是一款弹幕软件，可用于举办活动时，在Windows系统的电
 ##  部署指南
 ---
 ###Part-One:danmaku-java-server(zbus服务端)
-* 在pom.xml所在文件夹下使用maven进行打包，打包后的文件在target文件夹下 ： 
+* 在pom.xml所在文件夹下使用maven进行打包，打包后的文件在target文件夹下：
         
         mvn clean package
 * 修改服务器参数的配置文件: target/server.properties
@@ -28,7 +28,7 @@ Danmaku是一款弹幕软件，可用于举办活动时，在Windows系统的电
 * 运行target下的launch.bat或launch.sh即可运行服务端
 
 ###Part-Two:danmaku-java-client(windows客户端)
-* 在pom.xml所在文件夹下使用maven进行打包，打包后的文件在target文件夹下 ： 
+* 在pom.xml所在文件夹下使用maven进行打包，打包后的文件在target文件夹下：
         
         mvn clean package
 * 修改服务器参数的配置文件（也可在运行程序时填写）: target/danmaku.properties
