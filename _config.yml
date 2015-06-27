@@ -121,8 +121,7 @@ markdown: redcarpet
 safe: false
 highlighter: pygments
 title: 小明湖畔の博客
-post_list_title: 博文
-description:  I am I
+description: 三生石畔，伊人仍旧
 theme: slate
 disqusname: meso5533
 
