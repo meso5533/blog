@@ -34,11 +34,13 @@
        <hr/>
 {{content}}
       </section>
-      <section id="comments" class="inner">
-        {% if page.comments %}
+      
+      {% if page.comments %}
+        <section id="comments" class="inner">
           {% include comments.ext %}
-        {% endif %}
-      </section>
+        </section>
+      {% endif %}
+      
       <section id="sign_pic" class="inner">
         <img src="{{site.baseurl}}/themes/{{site.theme}}/images/sign.jpg">
       </section>
