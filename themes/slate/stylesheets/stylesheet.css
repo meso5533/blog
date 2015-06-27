@@ -70,8 +70,7 @@ a {
   text-shadow: none;
 }
 
-a:focus{color: #8FA5B6;}
-/* a:hover, a:focus {text-decoration: underline;} */
+a:hover, a:focus {color: #8FA5B6;}
 
 footer a {
   color: #F2F2F2;
